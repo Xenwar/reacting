@@ -15,7 +15,7 @@ remove:
 	docker ps -aq --filter "name=signupapp" | xargs docker rm -f
 clean:
 	echo "removing both the container and the corresponding image"
-        #docker images -aq --filter=reference='bottledjinni/reactsignup'|xargs docker rmi -f
+	make stop && make remove
 	docker images -aq --filter=reference='bottledjinni/reactsignup' | xargs docker rmi -f
 
 .PHONY: build
