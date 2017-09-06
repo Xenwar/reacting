@@ -1,5 +1,6 @@
-# There are three alternatives to run this app.
+# There are four alternatives to run this app.
   - Using Online deployed version. 
+  - Running locally as is
   - Pulling a docker image from dockerhub
   - Building a docker image locally. 
   
