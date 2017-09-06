@@ -57,9 +57,10 @@ kill the processes using the port.
 ## Summary (done)
 - Done, 20 random participants
 - Done, Table that displays the participants.
-- Done, A form to add new row (very basic non-real life validation.)
 - Done, Deletion of a row
 - Done, Sorting each column 
 - Done, Deployed online
-- Not done, inline editing
+- Parially Done, A form to add new row (very basic non-real life validation.)
 - Paritally done, UI design
+- Not done, inline editing
+
